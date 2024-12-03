@@ -1,0 +1,7 @@
+[user]
+	name = seongwon jin
+	email = seangwon20@gmail.com
+[credential]
+	helper = cache
+[init]
+	defaultBranch = main

@@ -12,9 +12,11 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1733217841,,"wq"
+|2,0,1733220217,,"wq"
+:!wq
+|2,0,1733220200,,"!wq"
 :q
-|2,0,1733216841,,"q"
+|2,0,1733220195,,"q"
 ::wq
 |2,0,1733214454,,":wq"
 :$
@@ -29,39 +31,41 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+"1	LINE	0
 	
-|3,1,1,1,1,0,1733217820,""
+|3,0,1,1,1,0,1733217820,""
 "2	LINE	0
 	 dc11817 Initial commit
 |3,0,2,1,1,0,1733217811," dc11817 Initial commit"
-"-	CHAR	0
-	k
-|3,0,36,0,1,0,1733217804,"k"
+""-	CHAR	0
+	o
+|3,1,36,0,1,0,1733220190,"o"
 
 # File marks:
-'0  1  26  ~/.git/rebase-merge/git-rebase-todo
-|4,48,1,26,1733217841,"~/.git/rebase-merge/git-rebase-todo"
-'1  1  0  ~/.git/rebase-merge/git-rebase-todo
-|4,49,1,0,1733216841,"~/.git/rebase-merge/git-rebase-todo"
-'2  1  0  ~/README.md
-|4,50,1,0,1733215656,"~/README.md"
-'3  33  0  ~/.bashrc
-|4,51,33,0,1733215639,"~/.bashrc"
-'4  2  0  ~/.git/MERGE_MSG
-|4,52,2,0,1733214997,"~/.git/MERGE_MSG"
-'5  2  0  ~/.git/MERGE_MSG
-|4,53,2,0,1733214454,"~/.git/MERGE_MSG"
+'0  1  5  ~/.git/rebase-merge/git-rebase-todo
+|4,48,1,5,1733220217,"~/.git/rebase-merge/git-rebase-todo"
+'1  1  26  ~/.git/rebase-merge/git-rebase-todo
+|4,49,1,26,1733217841,"~/.git/rebase-merge/git-rebase-todo"
+'2  1  0  ~/.git/rebase-merge/git-rebase-todo
+|4,50,1,0,1733216841,"~/.git/rebase-merge/git-rebase-todo"
+'3  1  0  ~/.git/rebase-merge/git-rebase-todo
+|4,51,1,0,1733216841,"~/.git/rebase-merge/git-rebase-todo"
+'4  1  0  ~/README.md
+|4,52,1,0,1733215656,"~/README.md"
+'5  33  0  ~/.bashrc
+|4,53,33,0,1733215639,"~/.bashrc"
 '6  2  0  ~/.git/MERGE_MSG
-|4,54,2,0,1733214444,"~/.git/MERGE_MSG"
+|4,54,2,0,1733214997,"~/.git/MERGE_MSG"
 '7  2  0  ~/.git/MERGE_MSG
-|4,55,2,0,1733214444,"~/.git/MERGE_MSG"
+|4,55,2,0,1733214454,"~/.git/MERGE_MSG"
 '8  2  0  ~/.git/MERGE_MSG
-|4,56,2,0,1733213968,"~/.git/MERGE_MSG"
+|4,56,2,0,1733214444,"~/.git/MERGE_MSG"
 '9  2  0  ~/.git/MERGE_MSG
-|4,57,2,0,1733213968,"~/.git/MERGE_MSG"
+|4,57,2,0,1733214444,"~/.git/MERGE_MSG"
 
 # Jumplist (newest first):
+-'  1  5  ~/.git/rebase-merge/git-rebase-todo
+|4,39,1,5,1733220217,"~/.git/rebase-merge/git-rebase-todo"
 -'  1  26  ~/.git/rebase-merge/git-rebase-todo
 |4,39,1,26,1733217841,"~/.git/rebase-merge/git-rebase-todo"
 -'  1  0  ~/.git/rebase-merge/git-rebase-todo
@@ -74,6 +78,30 @@
 |4,39,1,0,1733215656,"~/README.md"
 -'  1  0  ~/README.md
 |4,39,1,0,1733215656,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1733215656,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1733215656,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1733215656,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1733215656,"~/README.md"
+-'  33  0  ~/.bashrc
+|4,39,33,0,1733215639,"~/.bashrc"
+-'  33  0  ~/.bashrc
+|4,39,33,0,1733215639,"~/.bashrc"
+-'  33  0  ~/.bashrc
+|4,39,33,0,1733215639,"~/.bashrc"
+-'  33  0  ~/.bashrc
+|4,39,33,0,1733215639,"~/.bashrc"
+-'  33  0  ~/.bashrc
+|4,39,33,0,1733215639,"~/.bashrc"
+-'  33  0  ~/.bashrc
+|4,39,33,0,1733215639,"~/.bashrc"
+-'  33  0  ~/.bashrc
+|4,39,33,0,1733215639,"~/.bashrc"
+-'  33  0  ~/.bashrc
+|4,39,33,0,1733215639,"~/.bashrc"
 -'  33  0  ~/.bashrc
 |4,39,33,0,1733215639,"~/.bashrc"
 -'  33  0  ~/.bashrc
@@ -123,6 +151,70 @@
 -'  2  0  ~/.git/MERGE_MSG
 |4,39,2,0,1733214997,"~/.git/MERGE_MSG"
 -'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214997,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214997,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214997,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214997,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214997,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214997,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214997,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214997,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214997,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214997,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214997,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214997,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214997,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214997,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214997,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214997,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214454,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214454,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214454,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214454,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214454,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214454,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214454,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214454,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214454,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214454,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214454,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214454,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214454,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214454,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214454,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733214454,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
 |4,39,2,0,1733214454,"~/.git/MERGE_MSG"
 -'  2  0  ~/.git/MERGE_MSG
 |4,39,2,0,1733214454,"~/.git/MERGE_MSG"
@@ -172,105 +264,15 @@
 |4,39,2,0,1733214444,"~/.git/MERGE_MSG"
 -'  2  0  ~/.git/MERGE_MSG
 |4,39,2,0,1733214444,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733214444,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733214444,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733214444,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733214444,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733214444,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733214444,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733214444,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213968,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213968,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213968,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213968,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213968,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213968,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213968,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213968,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213968,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213968,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213968,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213968,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213968,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213968,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213968,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213968,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213960,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213960,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213960,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213960,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213960,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213960,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213960,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213960,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213960,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213960,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213960,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213960,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213960,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213960,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213960,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213960,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213089,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213089,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213089,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213089,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213089,"~/.git/MERGE_MSG"
--'  2  0  ~/.git/MERGE_MSG
-|4,39,2,0,1733213089,"~/.git/MERGE_MSG"
 
 # History of marks within files (newest to oldest):
 
 > ~/.git/rebase-merge/git-rebase-todo
-	*	1733217840	0
-	"	1	26
-	^	1	27
-	.	1	26
-	+	1	26
+	*	1733220216	0
+	"	1	5
+	^	1	6
+	.	1	5
+	+	1	5
 
 > ~/README.md
 	*	1733215648	0
